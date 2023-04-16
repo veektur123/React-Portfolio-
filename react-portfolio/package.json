@@ -1,11 +1,15 @@
 {
-  "name": "portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/veektur123/React-Portfolio-",
+  "homepage": "https://veektur123.github.io/React-Portfolio-/",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
