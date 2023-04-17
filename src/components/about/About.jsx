@@ -9,23 +9,23 @@ const About = () => {
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
-      <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
+      <div className="container about-wrapper">
+        <div className="about-profile-pic">
+          <div className="about-profile-pic-img">
             <img src={ME} alt="About image" />
           </div>
         </div>
 
-        <div className="about__content">
-          <div className="about__cards">
-          <article className='about__card'>
-              <FaAward className='about__icon'/>
+        <div className="about-description">
+          <div className="about-cards-wrapper">
+          <article className='about-card'>
+              <FaAward className='about-icon'/>
               <h5>Experience</h5>
               <small>6 Months </small>
             </article>
             
-            <article className='about__card'>
-              <FaAward className='about__icon'/>
+            <article className='about-card'>
+              <FaAward className='about-icon'/>
               <h5>Projects</h5>
               <small>3 Completed</small>
             </article>
