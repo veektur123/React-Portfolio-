@@ -18,8 +18,8 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn' target='_blank'>Repository</a>
-          <a href="https://github.com" className='btn btn-primary' target='_blank'>Deployment</a>
+          <a href="https://github.com/maxxAbow/CodingTheCosmos" className='btn' target='_blank'>Repository</a>
+          <a href="https://maxxabow.github.io/CodingTheCosmos/" className='btn btn-primary' target='_blank'>Deployment</a>
           </div>
         </article><article className='portfolio__item'>
           <div className="portfolio__item-image">
@@ -27,8 +27,8 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn' target='_blank'>Repository</a>
-          <a href="https://github.com" className='btn btn-primary' target='_blank'>Deployment</a>
+          <a href="https://https://github.com/maxxAbow/weatherOrNot.com" className='btn' target='_blank'>Repository</a>
+          <a href="https://diamonddougs.herokuapp.com/" className='btn btn-primary' target='_blank'>Deployment</a>
           </div>
         </article><article className='portfolio__item'>
           <div className="portfolio__item-image">
@@ -36,8 +36,8 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn' target='_blank'>Repository</a>
-          <a href="https://github.com" className='btn btn-primary' target='_blank'>Deployment</a>
+          <a href="https://github.com/maxxAbow/Folx" className='btn' target='_blank'>Repository</a>
+          <a href="https://folx-project-three.herokuapp.com/" className='btn btn-primary' target='_blank'>Deployment</a>
           </div>
         </article>
       </div>
