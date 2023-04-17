@@ -16,7 +16,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="portfolio image" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Coding The Cosmos</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/maxxAbow/CodingTheCosmos" className='btn' target='_blank'>Repository</a>
           <a href="https://maxxabow.github.io/CodingTheCosmos/" className='btn btn-primary' target='_blank'>Deployment</a>
@@ -25,7 +25,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>weatherOrNot</h3>
           <div className="portfolio__item-cta">
           <a href="https://https://github.com/maxxAbow/weatherOrNot.com" className='btn' target='_blank'>Repository</a>
           <a href="https://diamonddougs.herokuapp.com/" className='btn btn-primary' target='_blank'>Deployment</a>
@@ -34,7 +34,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Folx</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/maxxAbow/Folx" className='btn' target='_blank'>Repository</a>
           <a href="https://folx-project-three.herokuapp.com/" className='btn btn-primary' target='_blank'>Deployment</a>
