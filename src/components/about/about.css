@@ -70,7 +70,6 @@
     color: var(--color-light);
 }
 
-/* Media Query (medium devices) */
 @media screen and (max-width: 1024px) {
     .about-wrapper {
         grid-template-columns: 1fr;
@@ -88,7 +87,6 @@
 }
 
 
-/* Media Query (small devices) */
 
 @media screen and (max-width: 600px) {
     .about-profile-pic {
