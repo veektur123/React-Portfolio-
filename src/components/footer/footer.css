@@ -1,5 +1,5 @@
 footer {
-    background: var(--color-primary);
+    background: var(--main-color);
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -7,18 +7,18 @@ footer {
 }
 
 footer a {
-    color: var(--color-bg);
+    color: var(--background-color);
 
 }
 
-.footer__logo {
+.footer-img {
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
 }
 
-.permalinks {
+.links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -26,41 +26,39 @@ footer a {
     margin: 0 auto 3rem;
 }
 
-.footer__socials {
+.footer-social-media {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 4rem;
 }
 
-.footer__socials a {
-    background: var(--color-bg);
-    color: var(--color-white);
+.footer-social-media a {
+    background: var(--background-color);
+    color: var(--white);
     padding: 0.8rem;
     display: flex;
     border: 1px solid transparent;
 }
 
-.footer__socials a:hover {
+.footer-social-media a:hover {
     background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
+    color: var(--background-color);
+    border-color: var(--background-color);
 }
 
-.footer__copyright {
+.footer-cp {
     margin-bottom: 4rem;
-    color: var(--color-bg);
+    color: var(--background-color);
 }
 
-
-/* Media Query (small devices) */
 
 @media screen and (max-width: 600px) {
-    .permalinks {
+    .links {
         flex-direction: column;
         gap: 1.5rem;
     }
-    .footer__socials {
+    .footer-social-media {
         margin-bottom: 2.6rem;
         
     }

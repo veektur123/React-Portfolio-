@@ -4,24 +4,21 @@ header {
     overflow: hidden;
 }
 
-.header__container {
+.header-wrapper {
     text-align: center;
     height: 100%;
     position: relative;
 }
 
-/* CTA */
 
-.cta {
+.call-to-action {
      margin-top: 2.5rem;
      display: flex;
      gap: 1.2rem;
      justify-content: center;
 }
 
-/* Header Socials */
-
-.header__socials {
+.header-social-media {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,18 +28,16 @@ header {
     bottom: 3rem;
 }
 
-.header__socials::after {
+.header-social-media::after {
     content: '';
     width: 1px;
     height: 2rem;
-    background: var(--color-primary);
+    background: var(--main-color);
 }
 
-/* ME */
-
-.me {
+.profile-picture {
     background: linear-gradient(var
-    (--color-primary), transparent);
+    (--main-color), transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
@@ -53,9 +48,7 @@ header {
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 } 
 
-/* Scroll down */
-
-.scroll__down {
+.scroller {
     position: absolute;
     right: -2.3rem;
     bottom: 5rem;
@@ -78,8 +71,8 @@ header {
         height: 100vh;
     }
 
-    .header__socials,
-    .scroll__down {
+    .header-social-media,
+    .scroller {
         display: none;
     }
 }

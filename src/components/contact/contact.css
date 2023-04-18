@@ -12,7 +12,7 @@
 }
 
 .contact-method {
-    background: var(--color-bg-variant);
+    background: var(--background-color-alt);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -22,7 +22,7 @@
 
 .contact-method:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--main-color-variant);
 }
 
 .contact-method-icon {
@@ -49,9 +49,9 @@ input, textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid var(--main-color-variant);
     resize: none;
-    color: var(--color-white);
+    color: var(--white);
 }
 
 @media screen and (max-width: 1024px) {
@@ -65,7 +65,7 @@ input, textarea {
 
 @media screen and (max-width: 600px) {
     .container.contact-wrapper {
-        width: var(--container-width-sm);
+        width: var(--wrapper-small);
     }
 
 }

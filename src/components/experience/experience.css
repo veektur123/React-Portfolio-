@@ -5,7 +5,7 @@
 }
 
 .exp-wrapper > div {
-    background: var(--color-bg-variant);
+    background: var(--background-color-alt);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -14,14 +14,14 @@
 
 .exp-wrapper > div:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--main-color-variant);
     cursor: default;
 }
 
 .exp-wrapper > div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-primary);
+    color: var(--main-color);
 }
 
 .exp-content {
@@ -37,7 +37,7 @@
 
 .exp-description-icon {
     margin-top: 6px;
-    color: var(--color-primary);
+    color: var(--main-color);
 }
 
 @media screen and (max-width: 1024px) {

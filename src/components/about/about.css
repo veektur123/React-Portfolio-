@@ -11,7 +11,7 @@
     background: linear-gradient(
         45deg,
         transparent,
-        var(--color-primary),
+        var(--main-color),
         transparent 
     );
     display: grid;
@@ -36,7 +36,7 @@
 }
 
 .about-card {
-    background: var(--color-bg-variant);
+    background: var(--background-color-alt);
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
@@ -46,12 +46,12 @@
 
 .about-card:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--main-color-variant);
     cursor: default;
 }
 
 .about-icon {
-    color: var(--color-primary);
+    color: var(--main-color);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
@@ -62,12 +62,12 @@
 
 .about-card small {
     font-size: 0.7rem;
-    color: var(--color-light);
+    color: var(--beige);
 }
 
 .about-description p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: var(--beige);
 }
 
 @media screen and (max-width: 1024px) {
