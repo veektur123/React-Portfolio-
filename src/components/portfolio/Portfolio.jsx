@@ -27,7 +27,7 @@ const Portfolio = () => {
           </div>
           <h3>weatherOrNot</h3>
           <div className="portfolio__item-call-to-action">
-          <a href="https://https://github.com/maxxAbow/weatherOrNot.com" className='btn' target='_blank'>Repository</a>
+          <a href="https://github.com/maxxAbow/weatherOrNot" className='btn' target='_blank'>Repository</a>
           <a href="https://diamonddougs.herokuapp.com/" className='btn btn-primary' target='_blank'>Deployment</a>
           </div>
         </article><article className='portfolio__item'>
